@@ -164,7 +164,6 @@ namespace HospitalWardManager
                 Console.ReadKey();
             }
         }
-
         public static void DischargePatient(Patient patient, Ward ward, Doctor doc)
         {
             if (patient.IsDeceased == false)
@@ -214,7 +213,6 @@ namespace HospitalWardManager
                 Console.ReadKey();
             }
         }
-        
         public static void PatientDied(Patient patient) {
             patient.IsDeceased = true;
             patient.DischargeLoc = "Died";
